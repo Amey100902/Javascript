@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-image: url(library.jpg);
+}
+.container {
+    height: fit-content;
+    width: fit-content;
+
+}
+.header {
+    font-size: larger;
+    padding:2%;
+    color:black;
+    font-style: italic;
+    border: solid 2px;
+    border-color:azure;
+    background-color: azure;
+    margin: 20px auto;
+    width: 100%;
+    justify-content: center;
+    text-align:center;
+}
+.main-content {
+    background-color:azure;
+    width: 550px;
+    height: 200px;
+    padding: 4%;
+    box-shadow: 10 10 20px;
+    border-radius: 10px;
+    
+    
+}
+.text-area {
+    
+    font-style: italic;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+.person {
+    margin-top: 5%;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-shadow: 1.3rem;
+    color: crimson;
+    padding: 20px;
+    
+}
+.btn-area button {
+   
+    background-color:black;
+    color: antiquewhite;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    
+
+
+}
+
+.btn-area button:active {
+    background-color: rgb(156, 182, 182);
+    
+}
+.btn-area button:hover {
+    background-color: azure;
+    color: black;
+}
