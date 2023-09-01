@@ -61,29 +61,8 @@ searchBtn.addEventListener("click",()=> {
   weatherUpdate(searchBox.value);
 })
 
-//     const options = {method: 'GET', headers: {accept: 'application/json'}};
-//     const city = city;
-//     fetch('https://api.tomorrow.io/v4/weather/realtime?location=${encodeURIComponent(city)}&apikey=IAcHt1KeaLSZGkMC2sXVsDc1H3wzXMOP',options)
 
-//     .then(response => response.json()) // Parse the response as JSON
-//     .then(data => {
-//       // Extract temperature and humidity from the JSON data
-//       const temperature = data.data.values.temperature;
-//       const humidity = data.data.values.humidity;
-//       const cityName = data.location.name;
-//       document.querySelector(".city").innerHTML=cityName;
-//     document.querySelector(".temp").innerHTML=temperature+"°C";
-//     // document.querySelector(".humidity").innerHTML=result.data.values.humidity;
-//     document.querySelector(".humid-value").innerHTML=humidity+"%";
-//       // Display the extracted values
-//       console.log('Temperature:', temperature);
-//       console.log('Humidity:', humidity);
-//       console.log("city",cityName);
-//     })
-//     .catch(error => {
-//       // Handle any errors that occurred during the request
-//       console.error('Error:', error);
-//     });
+
  
   
    
